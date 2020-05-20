@@ -1,18 +1,19 @@
 
-# 572. Subtree of Another Tree
+# Subtree of Another Tree
+
+**Objective:** Write a function that checks whether or not tree *t* is a subtree of tree *s*
 
 #### Example1:
 ```
-Input tree s:
-
+Input:
+s:
      3
     / \
    4   5
   / \
  1   2
 
-Input tree t:
-
+t:
    4 
   / \
  1   2
@@ -21,8 +22,8 @@ Output: true
 ```
 #### Example2:
 ```
-Input tree s:
-
+Input:
+s:
      3
     / \
    4   5
@@ -31,13 +32,13 @@ Input tree s:
     /
    0
 
-Input tree t:
-
+t:
    4 
   / \
  1   2
 
 Output: false
 ```
-
-https://leetcode.com/problems/subtree-of-another-tree/
+___
+**Source:**
+ [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
